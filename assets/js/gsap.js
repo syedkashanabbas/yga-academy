@@ -46,17 +46,17 @@ $("#closeNav").on("click", function () {
 // overviewCardsSlider
 // overviewSlide
 
-gsap.to(".overviewCardsSlider.fowardSlider", {
-  transform: "translateX(200%)",
-  duration: 420,
-  repeat: -1,
-});
+// gsap.to(".overviewCardsSlider.fowardSlider", {
+//   transform: "translateX(200%)",
+//   duration: 420,
+//   repeat: -1,
+// });
 
-gsap.to(".overviewCardsSlider.reverseSlider", {
-  transform: "translateX(-200%)",
-  duration: 420,
-  repeat: -1,
-});
+// gsap.to(".overviewCardsSlider.reverseSlider", {
+//   transform: "translateX(-200%)",
+//   duration: 420,
+//   repeat: -1,
+// });
 
 let program_tl = gsap.timeline({
   scrollTrigger: {
@@ -91,15 +91,4 @@ program_tl.from(".programCardCont .col-12", {
   ease: "back.out",
 });
 
-let hightlights_tl = gsap.timeline({
-  scrollTrigger: {
-    trigger: "#highlights_heading",
-    pin: true,
-    scrub: 2,
-  },
-});
 
-hightlights_tl.to("#highlights_heading .heading", {
-  transform: "translateX(-80%)",
-  duration: 1,
-});
