@@ -1,0 +1,384 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary: #1b3b6f;
+  --dark_primary: #0d1b2a;
+  --secondary: #fcde17;
+  --dark_secondary: #f3d300;
+  --light: #fffffff6;
+  --white: #ffffff;
+  --dark: #000000f6;
+  --black: #000000;
+  --teal: #00353b;
+  --tealblue: #4498a2;
+  --light_teal: #b0dadf;
+  --lighter_teal: #d5e8eb;
+  --light_gray: #f4eeff;
+  --white: #fff;
+  --btn_padding: 0.6rem 1.4rem;
+  --ease_transition: 0.3s ease;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: aliceblue !important;
+}
+
+.material-icons {
+  font-size: 20px !important;
+}
+
+.wrapper {
+  max-width: 1440px !important;
+}
+
+.dropdownMenu {
+  width: 180px;
+}
+
+.dropdownMenu .dropdown-item:hover {
+  background: #f2f4f8 !important;
+  color: var(--dark_primary) !important;
+}
+
+.fs_title {
+  font-family: "Cal Sans", sans-serif;
+}
+
+.fs_4 {
+  font-size: 1.3rem !important;
+}
+
+.fs_5 {
+  font-size: 1.1rem !important;
+}
+
+.fs_6 {
+  font-size: 0.95rem !important;
+}
+
+.fs_7 {
+  font-size: 0.9rem !important;
+}
+
+/* text  */
+
+.text_light {
+  color: var(--light) !important;
+}
+
+.text_dark {
+  color: var(--dark) !important;
+}
+
+.text_highlight {
+  color: var(--secondary) !important;
+}
+
+/* bgs  */
+.bg_light {
+  background: var(--light) !important;
+}
+
+/* buttons  */
+
+.btn_lg {
+  padding: 0.85rem 1.35rem !important;
+}
+
+.btn_explore {
+  padding: 0.55rem 5.5rem !important;
+}
+.btn_teal {
+  background: var(--teal);
+  color: var(--white);
+  fill: var(--white);
+  border: none;
+  outline: none;
+  text-decoration: none;
+  user-select: none;
+  padding: var(--btn_padding);
+  transition: var(--ease_transition);
+}
+.btn_unique {
+  clip-path: polygon(100% 0, 92% 51%, 100% 100%, 0 99%, 0 0);
+}
+
+.btn_unique:hover {
+  clip-path: polygon(92% 0, 100% 51%, 92% 100%, 0 99%, 0 0);
+}
+
+.btn_primary {
+  background: var(--primary) !important;
+  fill: var(--light);
+  color: var(--light);
+  padding: 0.6rem 0.95rem;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+.btn_primary:hover {
+  background: var(--dark_primary) !important;
+}
+
+.btn_secondary {
+  background: var(--secondary) !important;
+  fill: var(--dark);
+  color: var(--dark);
+  padding: 0.6rem 0.95rem;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+.btn_secondary:hover {
+  background: var(--dark_secondary) !important;
+}
+
+.btn_transparent {
+  background: transparent !important;
+  fill: var(--dark);
+  color: var(--dark);
+  padding: 0.6rem 0.95rem;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* navbar  */
+
+nav {
+  /* background: #0D1B2A !important; */
+  /* background: var(--dark_primary) !important; */
+}
+
+#navbar {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translateX(100%);
+  background: #0d1b2aea;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 99;
+  backdrop-filter: blur(5px);
+}
+
+.navLinks {
+  color: #d3d3d3;
+  transition: 0.25s;
+}
+
+.navLinks:hover {
+  color: var(--secondary);
+}
+/* Header */
+header {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 105%;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+
+/* Vision */
+
+
+
+.visionContainer {
+  background: var(--dark_primary);
+  border-radius: 1.25rem;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 12px 24px rgba(238, 234, 234, 0.05);
+}
+
+.visionContainer h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--secondary); /* dark slate */
+}
+
+.visionContainer p {
+  color: #dadfccff; /* slate gray */
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.visionContainer h4 {
+  color: var(--secondary); /* strong heading */
+  margin-bottom: 0.5rem;
+}
+
+
+.lh_1 {
+  line-height: 1;
+}
+#hero {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+/* HighLight */
+#highlights {
+  height: auto;
+  width: auto;
+  background: url("assets/img/highlight_bg.jpg") center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+#highlights_heading {
+  height: 100vh;
+  width: auto;
+}
+
+#highlights_heading .heading {
+  font-size: 36vw;
+  line-height: 1;
+  color: var(--dark_primary);
+  mix-blend-mode: hard-light;
+}
+
+.highlightCardImg {
+  height: 650px;
+  width: auto;
+  position: relative;
+}
+
+.highlightCardImg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Overview */
+
+.big_wrapper {
+  max-width: 2400px;
+}
+
+.overviewCardsCont {
+  overflow: hidden;
+  position: relative;
+}
+
+.overviewCardsCont .fade_right {
+  z-index: 1;
+  perspective: 2000px;
+  background-image: linear-gradient(270deg, aliceblue, #ffffff00);
+  width: 270px;
+  display: none;
+  position: absolute;
+  right: 0;
+  inset: 0% 0% 0% auto;
+}
+
+.overviewCardsCont .fade_left {
+  z-index: 1;
+  background: linear-gradient(270deg, #ffffff00, aliceblue);
+  width: 291px;
+  display: none;
+  position: absolute;
+  left: 0;
+  inset: 0% auto 0% 0%;
+}
+
+.overviewCardsSlider {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+.overviewCardsSlider.reverseSlider {
+  justify-content: start;
+}
+
+.overviewSlide {
+  min-height: 500px;
+  min-width: 400px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.overviewSlide img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+@media (min-width: 1920px) {
+  .overviewCardsCont .fade_left,
+  .overviewCardsCont .fade_right {
+    display: block !important;
+  }
+}
+
+/* Programs */
+#programs {
+  position: relative;
+}
+
+#programsBg {
+  height: 100%;
+  width: 0%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--dark_primary);
+}
+
+.programCard {
+  height: auto;
+  width: auto;
+  background: var(--light);
+}
+
+.programCardImg {
+  height: 300px;
+  position: relative;
+}
+
+.programCardImg img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.programCardImgTxt {
+  position: relative;
+  height: 100%;
+  width: auto;
+  background: linear-gradient(to top, #00000096, #00000000);
+}
