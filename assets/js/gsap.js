@@ -43,52 +43,28 @@ $("#closeNav").on("click", function () {
   });
 });
 
-// overviewCardsSlider
-// overviewSlide
-
-// gsap.to(".overviewCardsSlider.fowardSlider", {
-//   transform: "translateX(200%)",
-//   duration: 420,
-//   repeat: -1,
-// });
-
-// gsap.to(".overviewCardsSlider.reverseSlider", {
-//   transform: "translateX(-200%)",
-//   duration: 420,
-//   repeat: -1,
-// });
-
-let program_tl = gsap.timeline({
-  scrollTrigger: {
-    trigger: "#programs",
-    start: "top 75%",
-  },
-});
-program_tl.to("#programsBg", {
-  width: "100%",
-  ease: "power.in",
-  duration: 1,
-});
-program_tl.from("#programs .section_heading", {
-  y: 50,
-  opacity: 0,
-  duration: 0.5,
-  ease: "power.out",
-});
-
-program_tl.from("#programs .section_text", {
-  y: 50,
-  opacity: 0,
-  duration: 0.5,
-  ease: "power.out",
-});
-
-program_tl.from(".programCardCont .col-12", {
-  opacity: 0,
-  y: 100,
-  duration: 0.75,
-  stagger: 0.4,
-  ease: "back.out",
-});
-
-
+ const swiper = new Swiper(".mySwiper", {
+    loop: true,
+    autoplay: {
+      delay: 4500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
+    },
+  });

@@ -1,167 +1,227 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Young Goose Academy | Skating Academy</title>
-    <link rel="stylesheet" href="assets/css/font.css">
-    <link rel="stylesheet" href="assets/css/all.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="assets/css/font.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div id="content">
-
-
-        <header>
-            <nav class="navbar navbar-expand-lg z-2 position-absolute top-0 end-0 start-0">
-                <div class="container-lg wrapper gap-2">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/img/logo.png" width="120" alt="">
-                    </a>
-                    <div class="dropdown d-inline-flex align-items-center ms-auto">
-                        <button class="btn_transparent dropdown-toggle text_light shadow-none d-inline-flex align-items-center gap-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="assets/img/united-kingdom.png" width="22" alt="">
-                            <span class="fw-medium lh_1">English</span>
-                        </button>
-                        <ul class="dropdown-menu bg_light dropdownMenu shadow border-0">
-                            <li><a class="dropdown-item d-inline-flex align-items-center gap-2 py-2" href="#">
-                                <img src="assets/img/united-kingdom.png" width="18" alt="">
-                                <span class="fs_7">English</span> 
-                            </a></li>
-                            <li><a class="dropdown-item d-inline-flex align-items-center gap-2 py-2" href="#">
-                                <img src="assets/img/italy.png" width="18" alt="">
-                                <span class="fs_7">Italian</span>
-                            </a></li>
-                            <li><a class="dropdown-item d-inline-flex align-items-center gap-2 py-2" href="#">
-                                <img src="assets/img/germany.png" width="18" alt="">
-                                <span class="fs_7">Deutsch</span>
-                            </a></li>
-                            <li><a class="dropdown-item d-inline-flex align-items-center gap-2 py-2" href="#">
-                                <img src="assets/img/slovenia.png" width="18" alt="">
-                                <span class="fs_7">Slovene</span>
-                            </a></li>
-                        </ul>
-                    </div>
-                    <button class="btn_transparent shadow-none d-inline-flex align-items-center" id="showNav">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="var(--light)" viewBox="0 0 24 24" height="30" width="30"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
-                    </button>
-                </div>
-            </nav>
-            <video src="assets/img/video_bg.mp4" autoplay muted loop></video>
-            <div id="hero" class="d-flex align-items-center justify-content-center">
-                <h1 class="text-center display-1 text_light lh_1 section_heading overflow-hidden py-2"><span class="d-inline-block fs_title">We are the</span> <br> <span class="d-inline-block fs_title">Heart of<span class="text_highlight fs_title">&nbsp;Ice Skating</span></span></h1>
-            </div>
-        </header>
-    
-
-
-        <!-- Navbar Section -->
-        <section id="navbar">
-            <div class="container-lg wrapper my-1">
-                <div class="d-flex align-items-center justify-content-between py-2 gap-1">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/img/logo.png" width="120" alt="">
-                    </a>
-                    <button class="btn_transparent shadow-none d-inline-flex align-items-center" id="closeNav">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" height="30" width="30"><path d="M13.46,12L19,17.54V19H17.54L12,13.46L6.46,19H5V17.54L10.54,12L5,6.46V5H6.46L12,10.54L17.54,5H19V6.46L13.46,12Z" /></svg>
-                    </button>
-                </div>
-                <ul class="navCont d-flex flex-column p-3 list-unstyled">
-                    <li class="navItem d-inline-block my-2 mb-3">
-                        <a href="#" class="navLinks fs-4 text-uppercase fs_title text-decoration-none">Home</a>
-                    </li>
-                    <li class="navItem d-inline-block my-2 mb-3">
-                        <a href="#" class="navLinks fs-4 text-uppercase fs_title text-decoration-none">About us</a>
-                    </li>
-                    <li class="navItem d-inline-block my-2 mb-3">
-                        <a href="#" class="navLinks fs-4 text-uppercase fs_title text-decoration-none">Activities</a>
-                    </li>
-                    <li class="navItem d-inline-block my-2 mb-3">
-                        <a href="#" class="navLinks fs-4 text-uppercase fs_title text-decoration-none">Competitions</a>
-                    </li>
-                    <li class="navItem d-inline-block my-2 mb-3">
-                        <a href="#" class="navLinks fs-4 text-uppercase fs_title text-decoration-none">YGA Camp</a>
-                    </li>
-                    <li class="navItem d-inline-block my-2 mb-3">
-                        <a href="#" class="navLinks fs-4 text-uppercase fs_title text-decoration-none">Partnership</a>
-                    </li>
-                    <li class="navItem d-inline-block my-2 mb-3">
-                        <a href="#" class="navLinks fs-4 text-uppercase fs_title text-decoration-none">News & Blogs</a>
-                    </li>
-                    <li class="navItem d-inline-block my-2 mb-3">
-                        <a href="#" class="btn_secondary fs_5 text-uppercase d-inline-flex align-items-center rounded btn_lg btn_unique">
-                            <span class="fs_title">Contact Us</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="28" width="28"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-            <!-- Vision Section -->
-        <section id="vision" class="vision py-5">
-    <div class="container-lg wrapper position-relative z-1">
-        <div class="visionContainer mt-5" data-aos="fade-up" data-aos-duration="800">
-        <!-- Headline Section -->
-        <div class="text-center mb-5">
-            <h2 class="mb-3">Where Champions Are Made</h2>
-            <p class="fs_5 mx-auto" style="max-width: 720px;">
-            Located in Egna, Italy, Young Goose Academy (YGA) is a top-tier skating center based at Würth Arena, offering high-level training and integrated academics to over 70 international athletes.
-            </p>
-        </div>
-
-        <!-- Grid Section -->
-        <div class="row gy-4">
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <h4 class="fw-semibold">Location & Facilities</h4>
-            <p>
-                Based in the state-of-the-art Würth Arena, YGA was inspired by Egna’s local skating heritage and now provides professional coaching alongside academic support for athletes.
-            </p>
-            </div>
-
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <h4 class="fw-semibold">Programs & Coaching</h4>
-            <p>
-                Offers training in singles, ice dance, pairs, and synchro. Led by experienced coaches including Matteo Zanni and supported by an international staff.
-            </p>
-            </div>
-
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <h4 class="fw-semibold">Top Skaters</h4>
-            <p>
-                Athletes like Naoki Rossi, Daniel Grassl, and Gabriele Frangipani have trained here, making YGA a destination for competitive excellence.
-            </p>
-            </div>
-
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <h4 class="fw-semibold">Global Impact</h4>
-            <p>
-                YGA welcomes skaters from around the world for year-round training, seasonal camps, and international collaborations in figure skating development.
-            </p>
-            </div>
-        </div>
-
-        <!-- Call to Action -->
-        <div class="text-center mt-5" data-aos="zoom-in" data-aos-delay="600">
-            <a href="#" class="btn_secondary fs_5 text-uppercase d-inline-flex align-items-center gap-2 rounded btn_xl btn_unique">
-            <span class="fs_title">Learn More</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="26" width="26" fill="currentColor">
-                <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
-            </svg>
+      <header>
+        <nav
+          class="navbar navbar-expand-lg z-2 position-absolute top-0 end-0 start-0"
+        >
+          <div class="container-lg wrapper gap-2">
+            <a class="navbar-brand" href="#">
+              <img src="assets/img/logo.png" width="120" alt="" />
             </a>
+            <div class="dropdown d-inline-flex align-items-center ms-auto">
+              <button
+                class="btn_transparent dropdown-toggle text_light shadow-none d-inline-flex align-items-center gap-1"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="assets/img/united-kingdom.png" width="22" alt="" />
+                <span class="fw-medium lh_1">English</span>
+              </button>
+              <ul class="dropdown-menu bg_light dropdownMenu shadow border-0">
+                <li>
+                  <a
+                    class="dropdown-item d-inline-flex align-items-center gap-2 py-2"
+                    href="#"
+                  >
+                    <img
+                      src="assets/img/united-kingdom.png"
+                      width="18"
+                      alt=""
+                    />
+                    <span class="fs_7">English</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item d-inline-flex align-items-center gap-2 py-2"
+                    href="#"
+                  >
+                    <img src="assets/img/italy.png" width="18" alt="" />
+                    <span class="fs_7">Italian</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item d-inline-flex align-items-center gap-2 py-2"
+                    href="#"
+                  >
+                    <img src="assets/img/germany.png" width="18" alt="" />
+                    <span class="fs_7">Deutsch</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item d-inline-flex align-items-center gap-2 py-2"
+                    href="#"
+                  >
+                    <img src="assets/img/slovenia.png" width="18" alt="" />
+                    <span class="fs_7">Slovene</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <button
+              class="btn_transparent shadow-none d-inline-flex align-items-center"
+              id="showNav"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="var(--light)"
+                viewBox="0 0 24 24"
+                height="30"
+                width="30"
+              >
+                <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+              </svg>
+            </button>
+          </div>
+        </nav>
+        <video src="assets/img/video_bg.mp4" autoplay muted loop></video>
+        <div id="hero" class="d-flex align-items-center justify-content-center">
+          <h1
+            class="text-center display-1 text_light lh_1 section_heading overflow-hidden py-2"
+          >
+            <span class="d-inline-block fs_title">We are the</span> <br />
+            <span class="d-inline-block fs_title"
+              >Heart of<span class="text_highlight fs_title"
+                >&nbsp;Ice Skating</span
+              ></span
+            >
+          </h1>
         </div>
+      </header>
+
+      <!-- Navbar Section -->
+      <section id="navbar">
+        <div class="container-lg wrapper my-1">
+          <div
+            class="d-flex align-items-center justify-content-between py-2 gap-1"
+          >
+            <a class="navbar-brand" href="#">
+              <img src="assets/img/logo.png" width="120" alt="" />
+            </a>
+            <button
+              class="btn_transparent shadow-none d-inline-flex align-items-center"
+              id="closeNav"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#fff"
+                viewBox="0 0 24 24"
+                height="30"
+                width="30"
+              >
+                <path
+                  d="M13.46,12L19,17.54V19H17.54L12,13.46L6.46,19H5V17.54L10.54,12L5,6.46V5H6.46L12,10.54L17.54,5H19V6.46L13.46,12Z"
+                />
+              </svg>
+            </button>
+          </div>
+          <ul class="navCont d-flex flex-column p-3 list-unstyled">
+            <li class="navItem d-inline-block my-2 mb-3">
+              <a
+                href="#"
+                class="navLinks fs-4 text-uppercase fs_title text-decoration-none"
+                >Home</a
+              >
+            </li>
+            <li class="navItem d-inline-block my-2 mb-3">
+              <a
+                href="#"
+                class="navLinks fs-4 text-uppercase fs_title text-decoration-none"
+                >About us</a
+              >
+            </li>
+            <li class="navItem d-inline-block my-2 mb-3">
+              <a
+                href="#"
+                class="navLinks fs-4 text-uppercase fs_title text-decoration-none"
+                >Activities</a
+              >
+            </li>
+            <li class="navItem d-inline-block my-2 mb-3">
+              <a
+                href="#"
+                class="navLinks fs-4 text-uppercase fs_title text-decoration-none"
+                >Competitions</a
+              >
+            </li>
+            <li class="navItem d-inline-block my-2 mb-3">
+              <a
+                href="#"
+                class="navLinks fs-4 text-uppercase fs_title text-decoration-none"
+                >YGA Camp</a
+              >
+            </li>
+            <li class="navItem d-inline-block my-2 mb-3">
+              <a
+                href="#"
+                class="navLinks fs-4 text-uppercase fs_title text-decoration-none"
+                >Partnership</a
+              >
+            </li>
+            <li class="navItem d-inline-block my-2 mb-3">
+              <a
+                href="#"
+                class="navLinks fs-4 text-uppercase fs_title text-decoration-none"
+                >News & Blogs</a
+              >
+            </li>
+            <li class="navItem d-inline-block my-2 mb-3">
+              <a
+                href="#"
+                class="btn_secondary fs_5 text-uppercase d-inline-flex align-items-center rounded btn_lg btn_unique"
+              >
+                <span class="fs_title">Contact Us</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  height="28"
+                  width="28"
+                >
+                  <path
+                    d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
-    </div>
-        </section>
-        <!-- OverView Section -->
-        <!-- <section id="overview" class="py-5">
+      </section>
+     
+      <!-- OverView Section -->
+      <!-- <section id="overview" class="py-5">
             <div class="big_wrapper mx-auto">
                 <div class="overviewCardsCont">
                     <div class="overviewCardsSlider fowardSlider my-4">
@@ -282,293 +342,327 @@
             </div>
         </section> -->
 
-        <!-- Programs Section -->
-       <section id="programs" class="py-5">
-        <div id="programsBg"></div>
-        <div class="container-lg wrapper position-relative z-1">
-            <h2 class="text-center text_light fs_title section_heading display-4">
-            <span class="text_highlight fs_title">YGA&nbsp;</span>Activities
-            </h2>
-            <p class="text_light text-center section_text">Explore the professional programs and elite training Young Goose Academy offers to its students.</p>
 
-            <div class="row my-4 programCardCont">
-            <!-- Figure Skating -->
-            <div class="col-lg-4 col-md-4 col-fm-6 col-12 my-3">
-                <div class="programCard rounded-3 shadow-sm overflow-hidden">
-                <div class="programCardImg">
-                    <img src="assets/img/program_1.jpg" alt="">
-                    <div class="programCardImgTxt position-relative z-1 p-3 d-flex align-items-end">
-                    <h3 class="text_light fs-4 fs_title m-0">Figure Skating</h3>
-                    </div>
+
+      <section class="product-section mt-4 py-5">
+        <div class="container-lg px-lg-6">
+          <div class="product-grid">
+            <!-- Left Column -->
+            <div class="left-column">
+              <!-- Images -->
+              <div class="top-images">
+                <div
+                  class="small-image"
+                  data-aos="fade-right"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="./assets/img/overview/overview_9.jpeg"
+                    alt="Yangoose Training"
+                  />
                 </div>
-                <div class="programCardTxt p-3">
-                    <p class="fs_7 mb-2">Elite training in singles, pairs, and dance, combining technical drills, choreography, and mental preparation for competitions.</p>
-                    <div class="d-flex align-items-center gap-1 my-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="20" width="20" fill="green">
-                        <path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" />
-                    </svg>
-                    <span class="fs_7">Technical refinement & jump training</span>
-                    </div>
-                    <div class="d-flex align-items-center gap-1 my-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="20" width="20" fill="green">
-                        <path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" />
-                    </svg>
-                    <span class="fs_7">Choreography & artistic development</span>
-                    </div>
-                    <div class="d-flex align-items-center gap-1 my-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="20" width="20" fill="green">
-                        <path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" />
-                    </svg>
-                    <span class="fs_7">Competitive event readiness</span>
-                    </div>
-                    <!-- <button class="btn_primary d-flex align-items-center justify-content-center w-100 mt-3 rounded">
-                    <span class="fs_6"></span>
-                    </button> -->
-                        <div class="text-center mt-2" data-aos="zoom-in" data-aos-delay="600">
-                    <a href="#" class="btn_secondary fs_5 text-uppercase d-inline-flex align-items-center gap-2 rounded btn_xl btn_unique">
-                    <span class="fs_6">Explore more</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="26" width="26" fill="currentColor">
-                        <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
-                    </svg>
-                    </a>
-                        </div>
+                <div
+                  class="small-image"
+                  data-aos="fade-right"
+                  data-aos-delay="200"
+                >
+                  <img
+                    src="./assets/img/overview/overview_3.jpeg"
+                    alt="Yangoose Coaching"
+                  />
                 </div>
+              </div>
+
+              <!-- Content -->
+              <div
+                class="content-section"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <h2 class="product-title">YANGOOSE<br />ACADEMY</h2>
+                <p class="fs_6 mb-2">
+                  Yangoose Academy is a premier skating school dedicated to
+                  developing confident, skilled skaters from beginner to
+                  competitive levels.
+                </p>
+                <p class="fs_6 mb-2">
+                  <span class="highlight">Our programs:</span> Learn‑to‑Skate,
+                  Performance Tracks, Seasonal Camps.
+                </p>
+                <p class="fs_6 mb-2">
+                  <strong>Core values:</strong> Discipline, Integrity &
+                  Sportsmanship guide our training philosophy.
+                </p>
+
+                <div
+                  class="text-start mt-3"
+                  data-aos="zoom-in"
+                  data-aos-delay="600"
+                >
+                  <a
+                    href="#contact"
+                    class="btn_secondary fs_5 text-uppercase d-inline-flex align-items-center gap-2 rounded btn_xl btn_unique"
+                  >
+                    <span class="fs_title">Contact Us</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      height="26"
+                      width="26"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
+                      />
+                    </svg>
+                  </a>
                 </div>
+              </div>
             </div>
 
-            <!-- Synchronized Skating -->
-            <div class="col-lg-4 col-md-4 col-fm-6 col-12 my-3">
-                <div class="programCard rounded-3 shadow-sm overflow-hidden">
-                <div class="programCardImg">
-                    <img src="assets/img/program_2.jpg" alt="">
-                    <div class="programCardImgTxt position-relative z-1 p-3 d-flex align-items-end">
-                    <h3 class="text_light fs-4 fs_title m-0">Synchronized Skating</h3>
-                    </div>
-                </div>
-                <div class="programCardTxt p-3">
-                    <p class="fs_7 mb-2">Team-based training focused on coordination, formations, and unity on ice, perfect for skaters who thrive in a team environment.</p>
-                    <div class="d-flex align-items-center gap-1 my-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="20" width="20" fill="green">
-                        <path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" />
-                    </svg>
-                    <span class="fs_7">Precision group movements</span>
-                    </div>
-                    <div class="d-flex align-items-center gap-1 my-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="20" width="20" fill="green">
-                        <path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" />
-                    </svg>
-                    <span class="fs_7">Team coordination and choreography</span>
-                    </div>
-                    <div class="d-flex align-items-center gap-1 my-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="20" width="20" fill="green">
-                        <path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" />
-                    </svg>
-                    <span class="fs_7">Performance and competition team tracks</span>
-                    </div>
-                    <!-- <button class="btn_primary d-flex align-items-center justify-content-center w-100 mt-3 rounded">
-                    <span class="fs_6">Explore more</span>
-                    </button> -->
-                    <div class="text-center mt-2" data-aos="zoom-in" data-aos-delay="600">
-                            <a href="#" class="btn_secondary fs_5 text-uppercase d-inline-flex align-items-center gap-2 rounded btn_xl btn_unique">
-                            <span class="fs_6">Explore more</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="26" width="26" fill="currentColor">
-                                <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
-                            </svg>
-                            </a>
-                        </div>
-                </div>
-                </div>
+            <!-- Right Column -->
+            <div class="right-column">
+              <div class="main-image" data-aos="fade-left" data-aos-delay="500">
+                <img
+                  src="./assets/img/overview/overview_12.jpeg"
+                  alt="Yangoose Ice Show"
+                />
+              </div>
             </div>
-
-            <!-- Ice Skating (Basic/Foundation) -->
-            <div class="col-lg-4 col-md-4 col-fm-6 col-12 my-3">
-                <div class="programCard rounded-3 shadow-sm overflow-hidden">
-                <div class="programCardImg">
-                    <img src="assets/img/program_3.jpg" alt="">
-                    <div class="programCardImgTxt position-relative z-1 p-3 d-flex align-items-end">
-                    <h3 class="text_light fs-4 fs_title m-0">Ice Skating Basics</h3>
-                    </div>
-                </div>
-                <div class="programCardTxt p-3">
-                    <p class="fs_7 mb-2">Beginner-level sessions that help young athletes or hobbyists build strong foundational skills on the ice in a fun and safe space.</p>
-                    <div class="d-flex align-items-center gap-1 my-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="20" width="20" fill="green">
-                        <path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" />
-                    </svg>
-                    <span class="fs_7">Balance, gliding & edge control</span>
-                    </div>
-                    <div class="d-flex align-items-center gap-1 my-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="20" width="20" fill="green">
-                        <path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" />
-                    </svg>
-                    <span class="fs_7">Safe environment for new skaters</span>
-                    </div>
-                    <div class="d-flex align-items-center gap-1 my-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="20" width="20" fill="green">
-                        <path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" />
-                    </svg>
-                    <span class="fs_7">Progressive levels to advance further</span>
-                    </div>
-                    <div class="text-center mt-2" data-aos="zoom-in" data-aos-delay="600">
-                            <a href="#" class="btn_secondary fs_5 text-uppercase d-inline-flex align-items-center gap-2 rounded btn_xl btn_unique">
-                            <span class="fs_6">Explore more</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="26" width="26" fill="currentColor">
-                                <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
-                            </svg>
-                            </a>
-                        </div>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        </section>
-
-  <section class="product-section mt-4 py-5">
-  <div class="container-fluid px-lg-5">
-    <div class="product-grid">
-      <!-- Left Column -->
-      <div class="left-column">
-        <!-- Images -->
-        <div class="top-images">
-          <div class="small-image" data-aos="fade-right" data-aos-delay="100">
-            <img src="./assets/img/overview/overview_9.jpeg" alt="Yangoose Training">
-          </div>
-          <div class="small-image" data-aos="fade-right" data-aos-delay="200">
-            <img src="./assets/img/overview/overview_3.jpeg" alt="Yangoose Coaching">
           </div>
         </div>
-
-        <!-- Content -->
-        <div class="content-section" data-aos="fade-up" data-aos-delay="300">
-          <h2 class="product-title">YANGOOSE<br>ACADEMY</h2>
-          <p class="fs_6 mb-2">
-            Yangoose Academy is a premier skating school dedicated to developing confident, skilled skaters from beginner to competitive levels.
-          </p>
-          <p class="fs_6 mb-2">
-            <span class="highlight">Our programs:</span> Learn‑to‑Skate, Performance Tracks, Seasonal Camps.
-          </p>
-          <p class="fs_6 mb-2">
-            <strong>Core values:</strong> Discipline, Integrity & Sportsmanship guide our training philosophy.
-          </p>
-
-          <div class="text-start mt-3" data-aos="zoom-in" data-aos-delay="600">
-            <a href="#contact" class="btn_secondary fs_5 text-uppercase d-inline-flex align-items-center gap-2 rounded btn_xl btn_unique">
-              <span class="fs_title">Contact Us</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="26" width="26" fill="currentColor">
-                <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Right Column -->
-      <div class="right-column">
-        <div class="main-image" data-aos="fade-left" data-aos-delay="500">
-          <img src="./assets/img/overview/overview_12.jpeg" alt="Yangoose Ice Show">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-    
-    
-<footer class="footer bg-dark text-light py-5">
-  <div class="container pt-3">
-    <div class="row">
-      <!-- About & Contact -->
-      <div class="col-md-4 mb-4">
-        <h5 class="text-uppercase">Yangoose Academy</h5>
-        <p>Premier skating training for all ages — from first-time gliders to competition-ready athletes.</p>
-        <p><i class="bi bi-geo-alt-fill"></i> 123 Ice Way, City Name</p>
-        <p><i class="bi bi-telephone-fill"></i> +92 300 1234567</p>
-        <p><i class="bi bi-envelope-fill"></i> info@yangooseacademy.com</p>
-      </div>
-
-      <!-- Quick Links -->
-      <div class="col-md-4 mb-4">
-     
-      </div>
-
-      <!-- Newsletter & Social -->
-      <div class="col-md-4">
-        <h5 class="text-uppercase">Newsletter</h5>
-        <form class="d-flex mb-3">
-          <input type="email" class="form-control me-2" placeholder="Your email">
-  
-          
-                        <button href="#" class="btn_secondary fs_5 text-uppercase d-inline-flex align-items-center rounded btn_lg btn_unique">
-                            <span class="fs_title">Subscribe</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="28" width="28"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg>
-                        </button>
-             
-        </form>
-        <div class="social-icons">
-          <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="text-light"><i class="bi bi-youtube"></i></a>
-        </div>
-      </div>
-    </div>
-    <hr class="bg-secondary">
-    <div class="text-center small">
-      &copy; 2025 Yangoose Academy. All rights reserved.
-    </div>
-  </div>
-</footer>
-
-    </div>
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="assets/js/gsap.js"></script>
-
-<script>
-        AOS.init({
-            duration: 800,
-            easing: 'ease-in-out',
-            once: true,
-            offset: 100
-        });
-
-    $(document).ready(function () {
-        $(".dropdown-menu .dropdown-item").on("click", function (e) {
-            e.preventDefault();
-
-            var selectedText = $(this).find("span").text();
-            var selectedImgSrc = $(this).find("img").attr("src");
-
-            // update button
-            $(".dropdown-toggle span").text(selectedText);
-            $(".dropdown-toggle img").attr("src", selectedImgSrc);
-
-           
-            switch (selectedText.toLowerCase()) {
-                case "english":
-                    applyLanguage('en');
-                    break;
-                case "italian":
-                    applyLanguage('it');
-                    break;
-                case "deutsch":
-                    applyLanguage('de');
-                    break;
-                case "slovene":
-                    applyLanguage('sl');
-                    break;
-            }
-        });
-    });
-
-        
+      </section>
 
       
-</script>
-</body>
+      <section class="custom-contact-section">
+        <div class="container-fluid wrapper">
+          <div class="row align-items-center g-5">
+            <!-- Left Column: Image with Text -->
+            <div class="col-md-6" data-aos="fade-right">
+              <div class="contact-image-block">
+                <img
+                  src="./assets/img/overview/overview_7.jpeg"
+                  alt="Contact Illustration"
+                />
+                <div class="contact-text-overlay">Need Some Help?</div>
+              </div>
+            </div>
+
+            <!-- Right Column: Form -->
+            <div class="col-md-6" data-aos="fade-left">
+              <div class="form-box">
+                <form>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label class="form-label small text-muted"
+                        >First Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Lindsay"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label small text-muted"
+                        >Last Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Doe"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <label class="form-label small text-muted"
+                        >Email Address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="lindsay.doe@email.com"
+                      />
+                    </div>
+                    <div class="col-md-12">
+                      <label class="form-label small text-muted"
+                        >Select State</label
+                      >
+                      <select class="form-select">
+                        <option selected disabled>Choose...</option>
+                        <option>California</option>
+                        <option>Texas</option>
+                        <option>New York</option>
+                      </select>
+                    </div>
+                  
+                    <div class="col-12 mt-4">
+                       <a
+                href="#"
+                class="btn_secondary fs_5 text-uppercase d-inline-flex align-items-center gap-2 rounded btn_xl btn_unique"
+              >
+                <span class="fs_title">Contact Us</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  height="26"
+                  width="26"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
+                  />
+                </svg>
+              </a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <section class="testimonial-section container-xl mt-4" id="testimonials">
+    <div class="container-xl ">
+        <h2 class="testimonial-heading" data-aos="fade-up">What People Say</h2>
+        <p class="testimonial-subheading" data-aos="fade-up" data-aos-delay="100">Here’s what our clients and collaborators have shared about their experience working with us.</p>
+
+        <div class="swiper mySwiper" data-aos="zoom-in-up" data-aos-delay="200">
+        <div class="swiper-wrapper">
+            <!-- Cards -->
+            <div class="swiper-slide">
+            <div class="testimonial-image">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client" />
+            </div>
+            <p class="testimonial-content">“Absolutely phenomenal! They turned our rough idea into a polished, professional product that exceeded our expectations in every way.”</p>
+            <div class="testimonial-footer">
+                <div class="testimonial-name">Sarah Thompson</div>
+                <div class="testimonial-role">CEO, ZenCorp</div>
+            </div>
+            </div>
+
+            <div class="swiper-slide">
+            <div class="testimonial-image">
+                <img src="https://randomuser.me/api/portraits/men/36.jpg" alt="Client" />
+            </div>
+            <p class="testimonial-content">“Their design intuition and code quality are unmatched. A smooth, streamlined experience from start to finish.”</p>
+            <div class="testimonial-footer">
+                <div class="testimonial-name">Michael Rivera</div>
+                <div class="testimonial-role">Creative Director</div>
+            </div>
+            </div>
+
+            <div class="swiper-slide">
+            <div class="testimonial-image">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Client" />
+            </div>
+            <p class="testimonial-content">“Highly skilled and full of fresh ideas! We’ve seen a real impact on our engagement thanks to their work.”</p>
+            <div class="testimonial-footer">
+                <div class="testimonial-name">Priya Desai</div>
+                <div class="testimonial-role">Product Manager</div>
+            </div>
+            </div>
+
+            <div class="swiper-slide">
+            <div class="testimonial-image">
+                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Client" />
+            </div>
+            <p class="testimonial-content">“Professionalism, vision, and detail — they have it all. I was blown away by the results!”</p>
+            <div class="testimonial-footer">
+                <div class="testimonial-name">David Lin</div>
+                <div class="testimonial-role">Marketing Head</div>
+            </div>
+            </div>
+
+            <div class="swiper-slide">
+            <div class="testimonial-image">
+                <img src="https://randomuser.me/api/portraits/women/81.jpg" alt="Client" />
+            </div>
+            <p class="testimonial-content">“Loved working with the team — creative, patient, and focused on delivering exactly what we needed.”</p>
+            <div class="testimonial-footer">
+                <div class="testimonial-name">Anna Gomez</div>
+                <div class="testimonial-role">UX Lead</div>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    </section>
+
+
+
+       <!-- Vision Section -->
+    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+      integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- SwiperJS for carousel -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/gsap.js"></script>
+
+
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: "ease-in-out",
+        once: true,
+        offset: 100,
+      });
+
+      $(document).ready(function () {
+        $(".dropdown-menu .dropdown-item").on("click", function (e) {
+          e.preventDefault();
+
+          var selectedText = $(this).find("span").text();
+          var selectedImgSrc = $(this).find("img").attr("src");
+
+          // update button
+          $(".dropdown-toggle span").text(selectedText);
+          $(".dropdown-toggle img").attr("src", selectedImgSrc);
+
+          switch (selectedText.toLowerCase()) {
+            case "english":
+              applyLanguage("en");
+              break;
+            case "italian":
+              applyLanguage("it");
+              break;
+            case "deutsch":
+              applyLanguage("de");
+              break;
+            case "slovene":
+              applyLanguage("sl");
+              break;
+          }
+        });
+      });
+    </script>
+  </body>
 </html>

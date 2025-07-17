@@ -1,0 +1,292 @@
+          <!-- Programs Section -->
+      <!-- <section id="programs" class="py-5">
+        <div id="programsBg"></div>
+        <div class="container-lg wrapper position-relative z-1">
+          <h2 class="text-center text_light fs_title section_heading display-4">
+            <span class="text_highlight fs_title">YGA&nbsp;</span>Activities
+          </h2>
+          <p class="text_light text-center section_text">
+            Explore the professional programs and elite training Young Goose
+            Academy offers to its students.
+          </p> -->
+
+    
+    <!-- <div class="row my-4 programCardCont">
+            //Figure Skating//
+            <div class="col-lg-4 col-md-4 col-fm-6 col-12 my-3">
+              <div class="programCard rounded-3 shadow-sm overflow-hidden">
+                <div class="programCardImg">
+                  <img src="assets/img/program_1.jpg" alt="" />
+                  <div
+                    class="programCardImgTxt position-relative z-1 p-3 d-flex align-items-end"
+                  >
+                    <h3 class="text_light fs-4 fs_title m-0">Figure Skating</h3>
+                  </div>
+                </div>
+                <div class="programCardTxt p-3">
+                  <p class="fs_7 mb-2">
+                    Elite training in singles, pairs, and dance, combining
+                    technical drills, choreography, and mental preparation for
+                    competitions.
+                  </p>
+                  <div class="d-flex align-items-center gap-1 my-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      height="20"
+                      width="20"
+                      fill="green"
+                    >
+                      <path
+                        d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                      />
+                    </svg>
+                    <span class="fs_7"
+                      >Technical refinement & jump training</span
+                    >
+                  </div>
+                  <div class="d-flex align-items-center gap-1 my-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      height="20"
+                      width="20"
+                      fill="green"
+                    >
+                      <path
+                        d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                      />
+                    </svg>
+                    <span class="fs_7"
+                      >Choreography & artistic development</span
+                    >
+                  </div>
+                  <div class="d-flex align-items-center gap-1 my-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      height="20"
+                      width="20"
+                      fill="green"
+                    >
+                      <path
+                        d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                      />
+                    </svg>
+                    <span class="fs_7">Competitive event readiness</span>
+                  </div> -->
+                  <!-- <button class="btn_primary d-flex align-items-center justify-content-center w-100 mt-3 rounded">
+                    <span class="fs_6"></span>
+                    </button> -->
+                  <!-- <div
+                    class="text-center mt-2"
+                    data-aos="zoom-in"
+                    data-aos-delay="600"
+                  >
+                    <a
+                      href="#"
+                      class="btn_secondary fs_5 text-uppercase d-inline-flex align-items-center gap-2 rounded btn_xl btn_unique"
+                    >
+                      <span class="fs_6">Explore more</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        height="26"
+                        width="26"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Synchronized Skating
+            <div class="col-lg-4 col-md-4 col-fm-6 col-12 my-3">
+              <div class="programCard rounded-3 shadow-sm overflow-hidden">
+                <div class="programCardImg">
+                  <img src="assets/img/program_2.jpg" alt="" />
+                  <div
+                    class="programCardImgTxt position-relative z-1 p-3 d-flex align-items-end"
+                  >
+                    <h3 class="text_light fs-4 fs_title m-0">
+                      Synchronized Skating
+                    </h3>
+                  </div>
+                </div>
+                <div class="programCardTxt p-3">
+                  <p class="fs_7 mb-2">
+                    Team-based training focused on coordination, formations, and
+                    unity on ice, perfect for skaters who thrive in a team
+                    environment.
+                  </p>
+                  <div class="d-flex align-items-center gap-1 my-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      height="20"
+                      width="20"
+                      fill="green"
+                    >
+                      <path
+                        d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                      />
+                    </svg>
+                    <span class="fs_7">Precision group movements</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-1 my-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      height="20"
+                      width="20"
+                      fill="green"
+                    >
+                      <path
+                        d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                      />
+                    </svg>
+                    <span class="fs_7">Team coordination and choreography</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-1 my-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      height="20"
+                      width="20"
+                      fill="green"
+                    >
+                      <path
+                        d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                      />
+                    </svg>
+                    <span class="fs_7"
+                      >Performance and competition team tracks</span
+                    >
+                  </div>
+                  <!-- <button class="btn_primary d-flex align-items-center justify-content-center w-100 mt-3 rounded">
+                    <span class="fs_6">Explore more</span>
+                    </button> -->
+                  <div
+                    class="text-center mt-2"
+                    data-aos="zoom-in"
+                    data-aos-delay="600"
+                  >
+                    <a
+                      href="#"
+                      class="btn_secondary fs_5 text-uppercase d-inline-flex align-items-center gap-2 rounded btn_xl btn_unique"
+                    >
+                      <span class="fs_6">Explore more</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        height="26"
+                        width="26"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Ice Skating (Basic/Foundation) -->
+            <div class="col-lg-4 col-md-4 col-fm-6 col-12 my-3">
+              <div class="programCard rounded-3 shadow-sm overflow-hidden">
+                <div class="programCardImg">
+                  <img src="assets/img/program_3.jpg" alt="" />
+                  <div
+                    class="programCardImgTxt position-relative z-1 p-3 d-flex align-items-end"
+                  >
+                    <h3 class="text_light fs-4 fs_title m-0">
+                      Ice Skating Basics
+                    </h3>
+                  </div>
+                </div>
+                <div class="programCardTxt p-3">
+                  <p class="fs_7 mb-2">
+                    Beginner-level sessions that help young athletes or
+                    hobbyists build strong foundational skills on the ice in a
+                    fun and safe space.
+                  </p>
+                  <div class="d-flex align-items-center gap-1 my-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      height="20"
+                      width="20"
+                      fill="green"
+                    >
+                      <path
+                        d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                      />
+                    </svg>
+                    <span class="fs_7">Balance, gliding & edge control</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-1 my-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      height="20"
+                      width="20"
+                      fill="green"
+                    >
+                      <path
+                        d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                      />
+                    </svg>
+                    <span class="fs_7">Safe environment for new skaters</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-1 my-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      height="20"
+                      width="20"
+                      fill="green"
+                    >
+                      <path
+                        d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"
+                      />
+                    </svg>
+                    <span class="fs_7"
+                      >Progressive levels to advance further</span
+                    >
+                  </div>
+                  <div
+                    class="text-center mt-2"
+                    data-aos="zoom-in"
+                    data-aos-delay="600"
+                  >
+                    <a
+                      href="#"
+                      class="btn_secondary fs_5 text-uppercase d-inline-flex align-items-center gap-2 rounded btn_xl btn_unique"
+                    >
+                      <span class="fs_6">Explore more</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        height="26"
+                        width="26"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
