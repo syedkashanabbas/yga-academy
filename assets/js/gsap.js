@@ -191,3 +191,27 @@ const timer = setInterval(() => {
     }
   }
 }, 1000);
+if (typeof gsap !== "undefined") {
+  gsap.from(".footer-title", {
+    scrollTrigger: {
+      trigger: ".creative-footer",
+      start: "top bottom",
+    },
+    y: 150,
+    opacity: 0,
+    duration: 1.5,
+    ease: "power4.out"
+  });
+
+  gsap.from(".footer-icon", {
+    scrollTrigger: {
+      trigger: ".footer-socials",
+      start: "top bottom",
+    },
+    scale: 0,
+    opacity: 0,
+    duration: 0.6,
+    stagger: 0.2,
+    ease: "back.out(1.7)"
+  });
+}
