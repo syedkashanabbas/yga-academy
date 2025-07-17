@@ -290,3 +290,100 @@
           </div>
         </div>
       </section> -->
+
+
+      Vision Section  
+        <section id="vision" class="vision py-5">
+        <div class="container-xl wrapper position-relative z-1">
+          <div
+            class="visionContainer mt-5"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <!-- Headline Section -->
+            <div class="text-center mb-5">
+                <h1
+            class="text-center display-1 text_light lh_1 section_heading overflow-hidden py-2"
+          >
+            <span class="d-inline-block fs_title">Where</span> <br />
+            <span class="d-inline-block fs_title"
+              ><span class="text_highlight fs_title"
+                >&nbsp; Champions &nbsp;</span
+              >made</span
+            >
+          </h1>
+              
+              <p class="fs_5 mx-auto" style="max-width: 720px">
+                Located in Egna, Italy, Young Goose Academy (YGA) is a top-tier
+                skating center based at Würth Arena, offering high-level
+                training and integrated academics to over 70 international
+                athletes.
+              </p>
+            </div>
+
+            <!-- Grid Section -->
+            <div class="row gy-4">
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <h4 class="fw-semibold">Location & Facilities</h4>
+                <p>
+                  Based in the state-of-the-art Würth Arena, YGA was inspired by
+                  Egna’s local skating heritage and now provides professional
+                  coaching alongside academic support for athletes.
+                </p>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <h4 class="fw-semibold">Programs & Coaching</h4>
+                <p>
+                  Offers training in singles, ice dance, pairs, and synchro. Led
+                  by experienced coaches including Matteo Zanni and supported by
+                  an international staff.
+                </p>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <h4 class="fw-semibold">Top Skaters</h4>
+                <p>
+                  Athletes like Naoki Rossi, Daniel Grassl, and Gabriele
+                  Frangipani have trained here, making YGA a destination for
+                  competitive excellence.
+                </p>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <h4 class="fw-semibold">Global Impact</h4>
+                <p>
+                  YGA welcomes skaters from around the world for year-round
+                  training, seasonal camps, and international collaborations in
+                  figure skating development.
+                </p>
+              </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div
+              class="text-center mt-5"
+              data-aos="zoom-in"
+              data-aos-delay="600"
+            >
+              <a
+                href="#"
+                class="btn_secondary fs_5 text-uppercase d-inline-flex align-items-center gap-2 rounded btn_xl btn_unique"
+              >
+                <span class="fs_title">Learn More</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  height="26"
+                  width="26"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
