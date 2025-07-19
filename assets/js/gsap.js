@@ -72,31 +72,33 @@ $("#closeNav").on("click", function () {
 });
 
 // === Swiper Carousel ===
-const swiper = new Swiper(".mySwiper", {
-  loop: true,
-  autoplay: {
-    delay: 4500,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-      spaceBetween: 20,
+// Initialize Swiper
+const swiper = new Swiper('.testimonials-slider', {
+    loop: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
     },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 30,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
     },
-    1200: {
-      slidesPerView: 3,
-      spaceBetween: 40,
+    breakpoints: {
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+        },
     },
-  },
 });
+
 
 // === Parallax Scroll Animations ===
 gsap.utils.toArray("[data-speed]").forEach(el => {
