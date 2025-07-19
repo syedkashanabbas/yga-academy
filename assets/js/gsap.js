@@ -245,6 +245,27 @@ if (typeof gsap !== "undefined") {
       }
     });
   });
+  gsap.from(".offer-content", {
+    x: -100,
+    opacity: 0,
+    duration: 1.2,
+    ease: "power4.out"
+  });
 
+  gsap.from(".btn.join-btn", {
+    y: 80,
+    opacity: 0,
+    delay: 0.5,
+    duration: 1,
+    ease: "elastic.out(1, 0.5)"
+  });
+
+  gsap.from(".offer-list li", {
+    x: -50,
+    opacity: 0,
+    duration: 0.8,
+    stagger: 0.15,
+    delay: 0.3
+  });
   
 }
