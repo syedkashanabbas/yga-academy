@@ -315,6 +315,7 @@ header video {
   width: 100%;
   object-fit: cover;
 }
+/* Product Section */
 
 .product-section {
   background: linear-gradient(to right, #f7faff, #eef2fb);
@@ -481,72 +482,98 @@ header video {
     font-size: 1rem;
   }
 }
-
-.custom-contact-section {
-  background: linear-gradient(to right, #f7faff, #eef2fb);
-  padding: 80px 0;
-}
-
-.contact-image-block {
+/* Contact Section */
+.creative-contact-section {
+  background: transparent;
   position: relative;
-  text-align: center;
+  padding: 100px 0;
 }
 
-.contact-image-block img {
-  max-width: 100%;
-  border-radius: 20px;
-}
-
-.contact-text-overlay {
+.background-blob {
   position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #333;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 20px 30px;
-  border-radius: 15px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-  font-weight: 600;
-  font-size: 24px;
+  top: -80px;
+  left: -120px;
+  width: 500px;
+  opacity: 0.2;
+  z-index: 0;
+  pointer-events: none;
 }
 
-.form-box {
-  background: white;
-  border-radius: 20px;
-  padding: 40px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+.diagonal-image-wrapper {
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+  overflow: hidden;
+  border-radius: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
 }
 
-.form-box input,
-.form-box select {
+.diagonal-image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.organic-form {
+  background: radial-gradient(circle at top left, #fff, #f9f9f9);
+  border-radius: 60px 20px 60px 30px;
+  box-shadow: 0 40px 90px rgba(0, 0, 0, 0.07);
+  z-index: 1;
+  position: relative;
+}
+.form-group {
+  position: relative;
+}
+
+.form-group input {
+  width: 100%;
   border: none;
   border-bottom: 2px solid #ccc;
-  border-radius: 0;
   background: transparent;
-  box-shadow: none;
-  padding-left: 0;
+  padding: 12px 0 8px;
+  font-size: 1rem;
+  color: #333;
+  transition: all 0.3s ease;
 }
 
-.form-box input:focus,
-.form-box select:focus {
-  border-bottom-color: #6c63ff;
+.form-group input:focus {
   outline: none;
-  box-shadow: none;
+  border-bottom-color: #fcde17;
 }
 
-@media (max-width: 768px) {
-  .contact-text-overlay {
-    font-size: 18px;
-    padding: 15px 20px;
-  }
+.form-group label {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  font-size: 0.95rem;
+  color: #888;
+  pointer-events: none;
+  transition: 0.2s ease all;
 }
+
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label {
+  top: -14px;
+  font-size: 0.8rem;
+  color: #fcde17;
+  font-weight: 500;
+  background: #fffef7;
+  padding: 0 5px;
+}
+
+/* Smooth glowing underline */
+.form-group input:focus {
+  box-shadow: 0 1px 0 0 #fcde17;
+}
+
+
+
+
 
 /* testimonails */
 
 /* Testimonials */
 .testimonials {
-  padding: 8rem 0;
+  padding: 2rem 0;
   background: var(--light);
   position: relative;
 }
@@ -597,11 +624,11 @@ header video {
   font-size: 0.9rem;
 }
 .section-title {
-  font-family: "Playfair Display", serif;
-  font-size: clamp(2.5rem, 5vw, 4rem);
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 3rem;
   color: var(--primary);
-  margin-bottom: 1rem;
 }
 
 .section-subtitle {
@@ -669,7 +696,7 @@ header video {
 .event-title {
   font-size: 1.4rem;
   font-weight: 700;
-  color: var(--dark);
+  color: var(--primary);
   margin-bottom: 8px;
 }
 
@@ -681,7 +708,7 @@ header video {
 
 .event-cta {
   font-weight: 600;
-  color: var(--secondary);
+  color: var(--primary);
   text-decoration: underline;
   font-size: 0.95rem;
 }
@@ -770,7 +797,7 @@ header video {
 
 .feature-event-content p {
   font-size: 1rem;
-  color: var(--dark);
+  color: var(--primary);
   line-height: 1.6;
 }
 

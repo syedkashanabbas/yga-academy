@@ -231,4 +231,11 @@ if (typeof gsap !== "undefined") {
     stagger: 0.2,
     ease: "back.out(1.7)"
   });
+   gsap.to("#floatingForm", {
+    y: -10,
+    duration: 2,
+    ease: "sine.inOut",
+    repeat: -1,
+    yoyo: true
+  });
 }
