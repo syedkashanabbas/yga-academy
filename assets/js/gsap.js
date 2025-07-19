@@ -267,5 +267,20 @@ if (typeof gsap !== "undefined") {
     stagger: 0.15,
     delay: 0.3
   });
+
+   gsap.utils.toArray(".reveal").forEach((el, i) => {
+    gsap.from(el, {
+      opacity: 0,
+      y: 60,
+      duration: 1,
+      ease: "power3.out",
+      delay: i * 0.2,
+      scrollTrigger: {
+        trigger: el,
+        start: "top 85%",
+        toggleActions: "play none none reverse"
+      }
+    });
+  });
   
 }
