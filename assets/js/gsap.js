@@ -18,13 +18,28 @@ body_tl.from("nav", {
   delay: 1,
 });
 
-body_tl.from("#hero .section_heading span.d-inline-block", {
-  y: 100,
-  duration: 0.5,
-  opacity: 0,
-  stagger: 0.25,
-  delay: 0.5,
-});
+ window.addEventListener("load", () => {
+    const tl = gsap.timeline();
+
+    // First line: from right
+    tl.from("#hero .section_heading span:nth-child(1)", {
+      x: 200,
+      opacity: 0,
+      duration: 1.2,
+      ease: "power4.out"
+    });
+
+    // Second line: from left
+    tl.from("#hero .section_heading span:nth-child(3)", {
+      x: -200,
+      opacity: 0,
+      duration: 1.4,
+      ease: "back.out(1.7)"
+    }, "-=0.6"); // overlap for fluid look
+
+    // Optional: Ice Skating scale pop
+
+  });
 
 // === Navbar Open/Close ===
 $("#showNav").on("click", function () {
