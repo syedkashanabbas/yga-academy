@@ -231,11 +231,20 @@ if (typeof gsap !== "undefined") {
     stagger: 0.2,
     ease: "back.out(1.7)"
   });
-   gsap.to("#floatingForm", {
-    y: -10,
-    duration: 2,
-    ease: "sine.inOut",
-    repeat: -1,
-    yoyo: true
+
+   gsap.utils.toArray("[data-scroll]").forEach((el, i) => {
+    gsap.from(el, {
+      y: 60,
+      opacity: 0,
+      duration: 1.2,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: el,
+        start: "top 85%",
+        toggleActions: "play none none reset"
+      }
+    });
   });
+
+  
 }

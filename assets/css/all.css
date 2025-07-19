@@ -566,11 +566,6 @@ header video {
 }
 
 
-
-
-
-/* testimonails */
-
 /* Testimonials */
 .testimonials {
   padding: 2rem 0;
@@ -1014,3 +1009,81 @@ header video {
   transform: scale(1.8);
   opacity: 0;
 }
+
+.gsap-scroll-section {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.scroll-block {
+  padding: 120px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.scroll-block h2,
+.scroll-block h3 {
+  font-size: 2.8rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.scroll-block p {
+  font-size: 1.2rem;
+  color: #555;
+  color: var(--primary);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-text.reverse {
+  flex-direction: row-reverse;
+}
+
+.image-wrapper {
+  flex: 1;
+  max-width: 500px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.1);
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 30px;
+}
+
+.text-wrapper {
+  flex: 1;
+  max-width: 500px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .image-text {
+    flex-direction: column;
+  }
+  .image-text.reverse {
+    flex-direction: column;
+  }
+  .scroll-block h2,
+  .scroll-block h3 {
+    font-size: 2rem;
+  }
+}
+
+/* Our teachers */
