@@ -920,7 +920,7 @@ header video {
 }
 
 
-/*  */
+/* Special OFfer */
 .special-offer-section {
   background-image: url('https://plus.unsplash.com/premium_photo-1664109999781-27f77214bcfc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Replace with yours */
   background-size: cover;
@@ -965,9 +965,10 @@ header video {
 
 
 
-
-
-.arrow-icon {
-  width: 20px;
-  height: 20px;
+.offer-note {
+  font-size: 0.9rem;
+  color: var(--dark_primary);
+  z-index: 2;
+  position: relative;
 }
+
