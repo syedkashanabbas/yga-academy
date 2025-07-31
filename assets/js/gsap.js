@@ -182,7 +182,19 @@ gsap.from(".feature-event-card", {
   duration: 1,
   ease: "power2.out",
 });
-
+ document.querySelectorAll(".category-card").forEach((card, i) => {
+    gsap.fromTo(card, {
+      y: i % 2 === 0 ? 50 : -50
+    }, {
+      y: 0,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: card,
+        start: "top 80%",
+        toggleActions: "play none none reverse"
+      }
+    });
+  });
 // === Countdown Timer Logic ===
 const eventDate = new Date("December 30, 2025 23:59:59").getTime();
 const timer = setInterval(() => {
@@ -279,6 +291,51 @@ if (typeof gsap !== "undefined") {
         trigger: el,
         start: "top 85%",
         toggleActions: "play none none reverse"
+      }
+    });
+  });
+
+  gsap.utils.toArray(".text-wrapper").forEach((el) => {
+    gsap.to(el, {
+      opacity: 1,
+      y: 0,
+      duration: 1.2,
+      ease: "power4.out",
+      scrollTrigger: {
+        trigger: el,
+        start: "top 85%",
+        toggleActions: "play none none reset"
+      }
+    });
+  });
+    document.querySelectorAll("h2.reveal, h3.reveal").forEach((el) => {
+    const split = new SplitType(el, { types: "chars" });
+
+    gsap.from(split.chars, {
+      y: 80,
+      opacity: 0,
+      stagger: 0.05,
+      ease: "power4.out",
+      duration: 1.4,
+      scrollTrigger: {
+        trigger: el,
+        start: "top 85%",
+        toggleActions: "play none none reverse"
+      }
+    });
+  });
+
+  // Parallax image entrance
+  document.querySelectorAll(".image-wrapper").forEach((el) => {
+    gsap.from(el, {
+      y: 100,
+      opacity: 0,
+      duration: 1.5,
+      ease: "expo.out",
+      scrollTrigger: {
+        trigger: el,
+        start: "top 90%",
+        toggleActions: "play none none reset"
       }
     });
   });
