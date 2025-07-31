@@ -1282,3 +1282,75 @@ background: radial-gradient(circle at top left, transparent, transparent);
     font-size: 2.2rem;
   }
 }
+
+.believe-sec {
+  padding: 100px 5%;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.believe-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #082b44;
+}
+
+.believe-subtext {
+  max-width: 700px;
+  margin: 0 auto 60px;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.believe-features {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.believe-card {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 12px;
+  max-width: 320px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.believe-card:hover {
+  transform: translateY(-10px);
+}
+
+.believe-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.believe-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.believe-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .believe-features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .believe-card {
+    width: 100%;
+    max-width: 400px;
+  }
+}
