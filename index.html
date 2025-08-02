@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap"
       rel="stylesheet"
@@ -726,18 +728,69 @@
       <p>From first-timers to pros, our results speak louder than words. See it. Feel it. Live it.</p>
     </div>
   </div>
-</section>
+      </section>
 
-   
+ <section class="sponsor-slider-section">
+  <div class="container">
+    <div class="sponsor-heading" data-aos="fade-up" data-aos-duration="1000">
+      <h2>Our Sponsors</h2>
+    </div>
+    <div class="swiper sponsor-swiper">
+      <div class="swiper-wrapper">
 
-<section class="partners-section" data-aos="fade-up">
-  <div class="partners-container">
-    <h2 class="partners-title">Our Partners</h2>
-    <div class="partners-image">
-      <img src="https://www.ygacademy.it/rcsgrt/wp-content/uploads/2022/08/sponsor-yga.jpg" alt="YG Academy Partners">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <div class="sponsor-slide">
+            <img src="./assets/img/sponsors/bovinci-1.webp" alt="Bonvicini Clinic">
+            <div class="overlay">
+              <h3>Bonvicini Clinic</h3>
+              <p>Beauty & Wellness Experts</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <div class="sponsor-slide">
+            <img src="./assets/img/sponsors/bovinci-2.webp" alt="Bonvicini Clinic">
+            <div class="overlay">
+              <h3>Bonvicini Clinic</h3>
+              <p>Luxury Aesthetic Center</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <div class="sponsor-slide">
+            <img src="./assets/img/sponsors/bovinci.webp" alt="Bonvicini Clinic">
+            <div class="overlay">
+              <h3>Bonvicini Clinic</h3>
+              <p>Redefining Confidence</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 4 (optional repeat of any) -->
+        <div class="swiper-slide">
+          <div class="sponsor-slide">
+            <img src="./assets/img/sponsors/bovinci-1.webp" alt="Bonvicini Clinic">
+            <div class="overlay">
+              <h3>Bonvicini Clinic</h3>
+              <p>Feel Beautiful, Inside Out</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
   </div>
 </section>
+
 
     
         <footer class="creative-footer position-relative overflow-hidden">
@@ -811,7 +864,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/js/gsap.js"></script>
-
+<script src="./assets/js/swiper.js"></script>
 
     <script>
       AOS.init({
@@ -820,7 +873,6 @@
         once: true,
         offset: 100,
       });
-
       $(document).ready(function () {
         $(".dropdown-menu .dropdown-item").on("click", function (e) {
           e.preventDefault();
