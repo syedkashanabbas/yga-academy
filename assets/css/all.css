@@ -750,7 +750,7 @@ background: radial-gradient(circle at top left, transparent, transparent);
 
 .feature-card:hover {
   transform: translateY(-5px);
-  border-left: 4px solid var(--primary, #1b3b6f);
+  border-left: 4px solid var(--secondary, #1b3b6f);
   box-shadow: 0 15px 30px rgba(27, 59, 111, 0.1);
 }
 
@@ -860,6 +860,25 @@ background: radial-gradient(circle at top left, transparent, transparent);
   transform: scale(1.8);
   opacity: 0;
 }
+/* Remove the blue/white filter and apply a light yellowish tint */
+.feature-sec .icon-img {
+  filter: none !important; /* Removes the white inversion */
+  opacity: 0.9; /* Softens the icon */
+  /* Optional: Apply a light yellow tint */
+  filter: sepia(30%) saturate(500%) hue-rotate(5deg) brightness(1.1);
+}
+
+/* Adjust hover effects (optional) */
+.feature-sec .feature-card:hover .icon-img {
+  opacity: 1; /* Makes it slightly brighter on hover */
+}.feature-sec .icon-wrapper {
+  background: linear-gradient(
+    135deg, 
+    var(--secondary, #fcde17) 0%, 
+    var(--dark_secondary, #f3d300) 100%
+  ) !important;
+}
+
 .gsap-scroll-section {
   width: 100%;
   overflow-x: hidden;
