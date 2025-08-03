@@ -29,97 +29,91 @@
       href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
       rel="stylesheet"
     />
+    <style>
+      nav.navbar {
+        z-index: 5;
+      }
+        
+      .navbar-brand img {
+        filter: drop-shadow(0 0 4px #0000003a);
+      }
+      .heroContent {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        align-items: end;
+      }
+    </style>
   </head>
   <body>
     <div id="content">
       <header>
-        <nav
-          class="navbar navbar-expand-lg z-2 position-absolute top-0 end-0 start-0"
-        >
-          <div class="container-lg wrapper gap-2">
-            <a class="navbar-brand" href="#">
-              <img src="assets/img/logo.png" width="120" alt="" />
-            </a>
-            <div class="dropdown d-inline-flex align-items-center ms-auto">
-              <button
-                class="btn_transparent dropdown-toggle text_light shadow-none d-inline-flex align-items-center gap-1"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <img src="assets/img/united-kingdom.png" width="22" alt="" />
-                <span class="fw-medium lh_1">English</span>
-              </button>
-              <ul class="dropdown-menu bg_light dropdownMenu shadow border-0">
-                <li>
-                  <a
-                    class="dropdown-item d-inline-flex align-items-center gap-2 py-2"
-                    href="#"
-                  >
-                    <img
-                      src="assets/img/united-kingdom.png"
-                      width="18"
-                      alt=""
-                    />
-                    <span class="fs_7">English</span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item d-inline-flex align-items-center gap-2 py-2"
-                    href="#"
-                  >
-                    <img src="assets/img/italy.png" width="18" alt="" />
-                    <span class="fs_7">Italian</span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item d-inline-flex align-items-center gap-2 py-2"
-                    href="#"
-                  >
-                    <img src="assets/img/germany.png" width="18" alt="" />
-                    <span class="fs_7">Deutsch</span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item d-inline-flex align-items-center gap-2 py-2"
-                    href="#"
-                  >
-                    <img src="assets/img/slovenia.png" width="18" alt="" />
-                    <span class="fs_7">Slovene</span>
-                  </a>
-                </li>
-              </ul>
+        <nav class="navbar navbar-expand-lg position-absolute top-0 end-0 start-0">
+            <div class="container-lg align-items-center wrapper gap-2">
+                <a class="navbar-brand d-inline-flex m-0 align-items-center" href="#">
+                    <img src="assets/img/logo.png" width="120" height="51" alt="young goose academy logo" />
+                </a>
+                <div class="nav_cta_cont d-inline-flex align-items-center gap-1 ms-auto">
+                    <div class="dropdown nav_cta_item d-inline-flex align-items-center ms-auto">
+                        <button class="btn_transparent dropdown-toggle text_light shadow-none d-inline-flex align-items-center gap-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="assets/img/united-kingdom.png" width="22" alt="" />
+                            <span class="fw-medium lh_1">EN</span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end bg_light dropdownMenu shadow border-0">
+                            <li>
+                                <a class="dropdown-item d-inline-flex align-items-center gap-2 py-2" href="#">
+                                <img src="assets/img/united-kingdom.png" width="18" alt="" />
+                                <span class="fs_7">EN</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-inline-flex align-items-center gap-2 py-2" href="#">
+                                <img src="assets/img/italy.png" width="18" alt="" />
+                                <span class="fs_7">IT</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-inline-flex align-items-center gap-2 py-2" href="#">
+                                <img src="assets/img/germany.png" width="18" alt="" />
+                                <span class="fs_7">DU</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-inline-flex align-items-center gap-2 py-2" href="#">
+                                <img src="assets/img/slovenia.png" width="18" alt="" />
+                                <span class="fs_7">SL</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav_cta_item">
+                        <button class="btn_transparent shadow-none d-inline-flex align-items-center" id="showNav">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="15" viewBox="0 0 47 31">
+                                <line id="Line_686" data-name="Line 686" x1="26" transform="translate(1.5 1.5)" fill="none" stroke="var(--light)" stroke-linecap="round" stroke-width="3"/>
+                                <line id="Line_690" data-name="Line 690" x1="26" transform="translate(1.5 29.5)" fill="none" stroke="var(--light)" stroke-linecap="round" stroke-width="3"/>
+                                <line id="Line_689" data-name="Line 689" x1="44" transform="translate(1.5 15.5)" fill="none" stroke="var(--light)" stroke-linecap="round" stroke-width="3"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <button
-              class="btn_transparent shadow-none d-inline-flex align-items-center"
-              id="showNav"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="var(--light)"
-                viewBox="0 0 24 24"
-                height="30"
-                width="30"
-              >
-                <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
-              </svg>
-            </button>
-          </div>
         </nav>
-        <video src="assets/img/video_bg.mp4" autoplay muted loop></video>
-        <!-- <video src="https://syedkashanabbas.github.io/yga-academy/assets/img/video_bg.mp4" autoplay muted loop></video> -->
-       <div id="hero">
-        <h1 class="text_light lh_1 section_heading overflow-hidden py-2">
-          <span class="d-inline-block fs_title">We are the</span> <br />
-          <span class="d-inline-block fs_title">
-            Heart of<span class="text_highlight fs_title">&nbsp;Ice Skating</span>
-          </span>
-        </h1>
-      </div>
-
+        <div id="hero">
+            <video src="assets/img/video_bg.mp4" autoplay loop muted></video>
+            <div class="heroContent py-5">
+                <div class="container-lg wrapper">
+                    <h1 class="text_light headingTxt display-3 fw-medium text-uppercase">YGA - The heart of skating</h1>
+                    <p class="text_light fs-6 paraTxt mb-4">Young Goose Academy is the biggest and most well-known skating academy in Italy. <br> We have been teaching skating across the country for the past 10 years.</p>
+                    <div class="cta_btn mb-3">
+                        <a href="#" class="btn_secondary d-inline-flex align-items-center gap-1 rounded btn_unique fw-medium">
+                            <span class="fs_6">Get Started</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="me-1" viewBox="0 0 24 24" height="18" width="18"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
       </header>
       <!-- Navbar Section -->
       <section id="navbar">
@@ -941,6 +935,53 @@
           }
         });
       });
+    </script>
+    <script>
+      gsap.registerPlugin();
+      let heading_tl = gsap.timeline();
+
+      heading_tl.from('.navbar-brand img', {
+          opacity: 0,
+          y: 60,
+          duration: 0.4
+      });
+
+      heading_tl.from('.navbar-brand', {
+          delay: 2,
+          position: 'fixed',
+          top: '50%',
+          left: '50%',
+          xPercent: -50,
+          yPercent: -50,
+          scale: 3.2,
+          duration: 1
+      });
+
+      heading_tl.from('.nav_cta_cont .nav_cta_item', {
+          y: -50,
+          opacity: 0,
+          stagger: 0.3, 
+          duration: 0.6
+      }, 3.2);
+
+      heading_tl.from('.heroContent .headingTxt', {
+          x: -50,
+          opacity: 0,
+          duration: 0.6
+      }, 4);
+
+      heading_tl.from('.heroContent .paraTxt', {
+          x: -50,
+          opacity: 0,
+          duration: 0.6
+      }, 4.4);
+
+      heading_tl.from('.heroContent .cta_btn', {
+          y: 50,
+          opacity: 0,
+          duration: 0.4
+      });
+
     </script>
   </body>
 </html>
