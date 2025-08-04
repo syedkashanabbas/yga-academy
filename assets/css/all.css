@@ -1086,7 +1086,7 @@ header video {
 .offer-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(120, 120, 120, 0.2);
+  background: #00101f77;
   /* Very gentle overlay */
   z-index: 0;
 }
