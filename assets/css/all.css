@@ -1074,31 +1074,20 @@ header video {
 
 /* Special OFfer */
 .special-offer-section {
-  position: relative;
-  overflow: hidden;
-  padding: 100px 0 60px;
-  color: #1b1b1b;
-}
-
-
-.special-offer-section::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
   background-image: url("../img/categories/category-6.jpg");
   background-size: cover;
   background-position: center;
-  z-index: -1;
-  transform: translateZ(0); /* Safari fix */
+  background-attachment: fixed;
+  padding: 100px 0 60px;
+  position: relative;
+  color: #1b1b1b;
 }
 
 .offer-overlay {
   position: absolute;
   inset: 0;
   background: #00101f77;
+  /* Very gentle overlay */
   z-index: 0;
 }
 
