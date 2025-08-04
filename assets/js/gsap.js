@@ -1,45 +1,45 @@
-// Register GSAP plugins
-gsap.registerPlugin(ScrollTrigger, Flip, MotionPathPlugin);
+// // Register GSAP plugins
+// gsap.registerPlugin(ScrollTrigger, Flip, MotionPathPlugin);
 
-// === Lenis Smooth Scroll ===
-const lenis = new Lenis();
-function raf(time) {
-  lenis.raf(time);
-  requestAnimationFrame(raf);
-}
-requestAnimationFrame(raf);
+// // === Lenis Smooth Scroll ===
+// const lenis = new Lenis();
+// function raf(time) {
+//   lenis.raf(time);
+//   requestAnimationFrame(raf);
+// }
+// requestAnimationFrame(raf);
 
-// === Hero + Nav Initial Animations ===
-let body_tl = gsap.timeline();
+// // === Hero + Nav Initial Animations ===
+// let body_tl = gsap.timeline();
 
-body_tl.from("nav", {
-  y: -200,
-  opacity: 0,
-  delay: 1,
-});
+// body_tl.from("nav", {
+//   y: -200,
+//   opacity: 0,
+//   delay: 1,
+// });
 
- window.addEventListener("load", () => {
-    const tl = gsap.timeline();
+//  window.addEventListener("load", () => {
+//     const tl = gsap.timeline();
 
-    // First line: from right
-    tl.from("#hero .section_heading span:nth-child(1)", {
-      x: 200,
-      opacity: 0,
-      duration: 1.2,
-      ease: "power4.out"
-    });
+//     // First line: from right
+//     tl.from("#hero .section_heading span:nth-child(1)", {
+//       x: 200,
+//       opacity: 0,
+//       duration: 1.2,
+//       ease: "power4.out"
+//     });
 
-    // Second line: from left
-    tl.from("#hero .section_heading span:nth-child(3)", {
-      x: -200,
-      opacity: 0,
-      duration: 1.4,
-      ease: "back.out(1.7)"
-    }, "-=0.6"); // overlap for fluid look
+//     // Second line: from left
+//     tl.from("#hero .section_heading span:nth-child(3)", {
+//       x: -200,
+//       opacity: 0,
+//       duration: 1.4,
+//       ease: "back.out(1.7)"
+//     }, "-=0.6"); // overlap for fluid look
 
-    // Optional: Ice Skating scale pop
+//     // Optional: Ice Skating scale pop
 
-  });
+//   });
 
 // === Navbar Open/Close ===
 $("#showNav").on("click", function () {
