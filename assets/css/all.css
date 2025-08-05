@@ -1097,13 +1097,12 @@ header video {
   z-index: -1;
   pointer-events: none;
 }
-
+/* 
 @supports (-webkit-touch-callout: none) {
-  /* iOS Safari */
   .special-offer-section::before {
     position: fixed;
   }
-}
+} */
 
 
 .offer-overlay {
